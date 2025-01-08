@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Taxas</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="img/logo.jpg" alt="">
+    </div>
+
+    <div id="main" class="main">
+        <h1>Consultar Taxas Visa ou Master</h1>
+        <div class="form">
+            <label id="" for="receber">Quanto quer Receber: </label>
+            <input type="number" id="receber" name="receber" class="receber" >
+            <button type="button" id="sendBtn" class="sendBtn">Calcular</button>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>Descrição</th>
+                <th>Parcelas</th>
+                <th class="hidder">Valor</th>
+            </tr>
+            <tr>
+                <td class="taxa">Deb</td>
+                <td id="p0"></td>
+                <td class="hidder" id="n0"></td>
+            </tr>
+            <tr>
+                <td class="taxa">1x</td>
+                <td id="p1"></td>
+                <td class="hidder" id="n1"></td>
+            </tr>
+            <tr>
+                <td class="taxa">2x</td>
+                <td id="p2"></td>
+                <td class="hidder" id="n2"></td>
+            </tr>
+            <tr>
+                <td class="taxa">3x</td>
+                <td id="p3"></td>
+                <td class="hidder" id="n3"></td>
+            </tr>
+            <tr>
+                <td class="taxa">4x</td>
+                <td id="p4"></td>
+                <td class="hidder" id="n4"></td>
+            </tr>
+            <tr>
+                <td class="taxa">5x</td>
+                <td id="p5"></td>
+                <td class="hidder" id="n5"></td>
+            </tr>
+            <tr>
+                <td class="taxa">6x</td>
+                <td id="p6"></td>
+                <td class="hidder" id="n6"></td>
+            </tr>
+            <tr>
+                <td class="taxa">7x</td>
+                <td id="p7"></td>
+                <td class="hidder" id="n7"></td>
+            </tr>
+            <tr>
+                <td class="taxa">8x</td>
+                <td id="p8"></td>
+                <td class="hidder" id="n8"></td>
+            </tr>
+            <tr>
+                <td class="taxa">9x</td>
+                <td id="p9"></td>
+                <td class="hidder" id="n9"></td>
+            </tr>
+            <tr>
+                <td class="taxa">10x</td>
+                <td id="p10"></td>
+                <td class="hidder" id="n10"></td>
+            </tr>
+            <tr>
+                <td class="taxa">11x</td>
+                <td id="p11"></td>
+                <td class="hidder" id="n11"></td>
+            </tr>
+            <tr>
+                <td class="taxa">12x</td>
+                <td id="p12"></td>
+                <td class="hidder" id="n12"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
